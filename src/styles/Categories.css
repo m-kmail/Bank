@@ -1,0 +1,26 @@
+.categ, .total{
+    display: inline;
+    margin-left: 30px;
+    color: white;
+}
+
+.singlecategory{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    color: white;
+  border-radius: 50px;
+  background-color: rgba(169,169,169, 0.35);
+  box-shadow: 0 0 3px #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.headcateg, .headtotal{
+    color: aqua;
+}
+
+.theader{
+     display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
