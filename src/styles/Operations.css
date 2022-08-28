@@ -85,25 +85,6 @@ grid-template-columns: 2fr 2fr 2fr 2fr;
     margin-left: 30%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .deposit,.withdraw{
     display: inline-block;
     margin: 5px; 
@@ -129,6 +110,11 @@ grid-template-columns: 2fr 2fr 2fr 2fr;
     transform: scale(1.1);
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 
 
